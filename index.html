@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"> WebPortfolio </div>
+            <div class="nav-links">
+                <button onclick="goToSection('home')" href="#">Home</button>
+                <button onclick="goToSection('achievements')" href="#">Achievements </button>
+                <button onclick="goToSection('Aboutme')" href="#">About me </button>
+                <button onclick="goToSection('contacts')" href="#">Contacts</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-text">
+                <h1>Hey, Mariane Soriano</h1>
+                <h2>IT Student</h2>
+                <p>Studying in Occidental Mindoro State College (OMSC) Mamburao</p>
+                <button onclick="goToSection('Skills')" class="button1" onclick="getSelection('skills')">Skills</button>
+            </div>
+            <div class="hero-image">
+                <img src="1745635533120.jpg" alt="Mariane">
+            </div>
+        </section>
+    </main>
+
+    <section id="achievements" class="achievements">
+        <h3>Achievements</h3>
+             <div class="achievements-list">
+                <span>Best in Math and English since Elementary</span>
+                <span>With Honor in Senior HIgh Grade 12</span>
+             </div>
+        
+    </section>
+    <section id="Skills" class="Skills">
+        <h3>Skills</h3>
+            <div class="skills-list">
+                <span>Watching</span>
+                <span>Reading</span>
+                <span>Understanding</span>
+            </div>
+    </section>
+    
+    <section id="Aboutme" class="about-me">
+        <h2>About me</h2>
+        <p>I am Mariane Soriano, 19 years old,Second Year college currently studying Bachelor of Science in information Technology,I like watching movies and my favorite food are Noodles and Chicken.</p>
+    </section>
+    <section id="contacts" class="Contacts">
+        <h2>Contacts</h2>
+        <div class="contact">
+             <li><a href="#">email: sorianomariane166@gmail.com</a></li>
+             <li><a href="#">Phone No: 09318623786</a></li>
+        </div>
+        <div class="Socials">
+             <a class="S" href="#">Socials:</a>
+             <li><a href="#">Facebook: Mariane soriano</a></li>
+             <li><a href="#">Tiktok: @Yhanzzzz</a></li>
+        </div>
+    </section>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
